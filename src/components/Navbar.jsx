@@ -25,9 +25,9 @@ const Navbar = () => {
 
             <div className="flex items-center">
                 <ul className="hidden md:flex space-x-4 mx-8">
-                    <li><a href="https://www.youtube.com/@vansh9461" target='_blank' rel="noreferrer" aria-label="YouTube" className="text-red-600 hover:text-red-500"><FaYoutube className="text-2xl" /></a></li>
-                    <li><a href="https://www.instagram.com/yourusername" target='_blank' rel="noreferrer" aria-label="Instagram" className="text-pink-600 hover:text-pink-500"><FaInstagram className="text-2xl" /></a></li>
-                    <li><a href="https://www.facebook.com/yourusername" target='_blank' rel="noreferrer" aria-label="Facebook" className="text-blue-600 hover:text-blue-500"><FaFacebook className="text-2xl" /></a></li>
+                    <li><a href="https://www.youtube.com/" target='_blank' rel="noreferrer" aria-label="YouTube" className="text-red-600 hover:text-red-500"><FaYoutube className="text-2xl" /></a></li>
+                    <li><a href="https://www.instagram.com/m.vansh.19" target='_blank' rel="noreferrer" aria-label="Instagram" className="text-pink-600 hover:text-pink-500"><FaInstagram className="text-2xl" /></a></li>
+                    <li><a href="https://www.facebook.com/m.vansh.12" target='_blank' rel="noreferrer" aria-label="Facebook" className="text-blue-600 hover:text-blue-500"><FaFacebook className="text-2xl" /></a></li>
                 </ul>
 
                 <div className="md:hidden">

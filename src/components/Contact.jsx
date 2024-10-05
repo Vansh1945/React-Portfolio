@@ -29,22 +29,22 @@ const Contact = () => {
           <div className="w-full flex justify-center md:justify-start gap-6 mt-6">
             {/* Icon with hover glow effect */}
             <div className="bg-white shadow-lg rounded-full flex items-center justify-center w-12 h-12 hover:shadow-gray-600  hover:scale-110 transition-transform duration-300 ease-in-out">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Vansh1945" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-gray-700 w-8 h-8 hover:text-gray-900 transition-colors duration-300 ease-in-out" />
               </a>
             </div>
             <div className="bg-white shadow-lg rounded-full flex items-center justify-center w-12 h-12 hover:shadow-blue-400  hover:scale-110 transition-transform duration-300 ease-in-out">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="www.linkedin.com/in/vansh-dogra-707b97256" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn className="text-blue-700 w-8 h-8 hover:text-blue-900 transition-colors duration-300 ease-in-out" />
               </a>
             </div>
             <div className="bg-white shadow-lg rounded-full flex items-center justify-center w-12 h-12 hover:shadow-pink-400  hover:scale-110 transition-transform duration-300 ease-in-out">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/m.vansh.19" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="text-pink-500 w-8 h-8 hover:text-pink-600 transition-colors duration-300 ease-in-out" />
               </a>
             </div>
             <div className="bg-white shadow-lg rounded-full flex items-center justify-center w-12 h-12 hover:shadow-blue-400  hover:scale-110 transition-transform duration-300 ease-in-out">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/m.vansh.12" target="_blank" rel="noopener noreferrer">
                 <FaFacebookF className="text-blue-600 w-8 h-8 hover:text-blue-800 transition-colors duration-300 ease-in-out" />
               </a>
             </div>
