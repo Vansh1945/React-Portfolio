@@ -1,14 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", // Specify where to look for classes
   ],
   theme: {
-    fontFamily: {
-      cursive: ['"Dancing Script"', 'cursive'],
-    },
     extend: {
-      
+      fontFamily: {
+        cursive: ['"Playfair Display"', 'serif'], // Set up the custom font family
+      },
     },
   },
   plugins: [],

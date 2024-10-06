@@ -5,16 +5,20 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
 
+    const handleMenuItemClick = () => {
+        setShowMediaIcons(false);
+    };
+
     return (
-        <nav className="navbar fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-3 bg-white shadow-md shadow-gray-200">
+        <nav className="navbar fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 bg-white shadow-md shadow-gray-200">
             <div className="flex items-center">
                 <h2 className="navbar-logo font-cursive font-extrabold mx-8 bg-gradient-to-r from-[#93d6f5] to-[#107aac] bg-clip-text text-transparent text-3xl">
                     <span className='font-cursive'>V</span>ansh
                 </h2>
             </div>
 
-            <div className={`${showMediaIcons ? "block" : "hidden"} md:block transition-all duration-300`}>
-                <ul className="flex space-x-6 md:space-x-24">
+            <div className="hidden md:flex md:items-center md:space-x-6 md:space-x-24 transition-all duration-300">
+                <ul className="flex space-x-24">
                     <li><a href="#home" className="text-lg font-semibold font-cursive text-[#107aac] hover:text-[#36b2ec]">Home</a></li>
                     <li><a href="#about" className="text-lg font-semibold font-cursive text-[#107aac] hover:text-[#36b2ec]">About</a></li>
                     <li><a href="#experience" className="text-lg font-semibold font-cursive text-[#107aac] hover:text-[#36b2ec]">Skills</a></li>
@@ -36,6 +40,19 @@ const Navbar = () => {
                     </button>
                 </div>
             </div>
+
+            {/* Mobile Menu */}
+            {showMediaIcons && (
+                <div className="absolute top-16 left-0 right-0 bg-white md:hidden">
+                    <ul className="flex flex-col items-center space-y-4 p-4">
+                        <li><a href="#home" onClick={handleMenuItemClick} className="text-lg font-semibold font-cursive text-[#107aac] hover:text-[#36b2ec]">Home</a></li>
+                        <li><a href="#about" onClick={handleMenuItemClick} className="text-lg font-semibold font-cursive text-[#107aac] hover:text-[#36b2ec]">About</a></li>
+                        <li><a href="#experience" onClick={handleMenuItemClick} className="text-lg font-semibold font-cursive text-[#107aac] hover:text-[#36b2ec]">Skills</a></li>
+                        <li><a href="#projects" onClick={handleMenuItemClick} className="text-lg font-semibold font-cursive text-[#107aac] hover:text-[#36b2ec]">Project</a></li>
+                        <li><a href="#contact" onClick={handleMenuItemClick} className="text-lg font-semibold font-cursive text-[#107aac] hover:text-[#36b2ec]">Contact</a></li>
+                    </ul>
+                </div>
+            )}
         </nav>
     );
 };
