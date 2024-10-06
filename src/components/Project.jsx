@@ -20,7 +20,7 @@ const Project = () => {
             <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-auto">
               <Button 
                 variant="outlined" 
-                href={project.github} 
+                href={project.code} 
                 target="_blank"
                 startIcon={<GitHub />}
                 sx={{ width: '100%', md: { width: 'auto' }, color: '#107aac', borderColor: '#107aac' }}
