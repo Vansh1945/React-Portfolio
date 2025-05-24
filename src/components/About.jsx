@@ -14,12 +14,10 @@ const About = () => {
           <li className="flex flex-col md:flex-row rounded-md list-none p-2">
             <div className="mx-5 justify-between">
               <p className="text-lg text-gray-700 mb-5 md:mt-0 text-justify leading-relaxed tracking-normal">
-                Hi, I'm Vansh, a passionate full-stack developer. Currently pursuing a B.Tech in Computer Science Engineering, I have honed my skills in various programming languages, including Python, Django, JavaScript, C, C++, HTML, and CSS.
-              </p>
+Hi, I'm <span className="font-semibold text-[#107aac]">Vansh</span>, a passionate full-stack developer currently pursuing a B.Tech in Computer Science Engineering. I specialize in building modern web applications with clean, efficient code and intuitive user interfaces. </p>
               <br />
               <p className="text-lg text-gray-700 mb-5 md:mt-0 text-justify leading-relaxed tracking-normal">
-                I enjoy creating dynamic and responsive web applications, leveraging my knowledge of Tailwind CSS to enhance user experience. With a strong foundation in both front-end and back-end technologies, I'm dedicated to building efficient solutions that meet user needs and drive innovation.
-              </p>
+My toolkit includes <span className="font-medium">Python, Django, JavaScript, React, C/C++</span>, and modern CSS frameworks like <span className="font-medium">Tailwind CSS</span>. I'm passionate about creating solutions that are not just functional but also deliver exceptional user experiences.              </p>
               <div className="flex justify-center mt-6 md:justify-start md:mt-8">
                 <Button
                   variant="contained"
