@@ -6,7 +6,7 @@ export const Projects = [
         details: 'This project is a responsive website for daily blogs, where only the admin can add blogs, while the public can view and read them.',
         languages: ['HTML', 'CSS', 'Python','Django','SQLite'],
         code: '#',
-        liveLink: '#',
+        liveLink: 'django-blog-wzf3.onrender.com/',
     },
     {
         id: 2,
