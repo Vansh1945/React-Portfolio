@@ -17,6 +17,15 @@ const Project = () => {
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2 text-center">{project.title}</h3>
             <p className="text-gray-600 mb-4 text-center flex-grow">{project.details}</p>
+            <div className="mb-4 text-center">
+              <div className="flex flex-wrap justify-center gap-2">
+                {project.languages && project.languages.map((lang, index) => (
+                  <span key={index} className="bg-[#107aac] text-white px-2 py-1 rounded-full text-sm">
+                    {lang}
+                  </span>
+                ))}
+              </div>
+            </div>
             <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-auto">
               <Button 
                 variant="outlined" 

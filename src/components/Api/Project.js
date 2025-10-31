@@ -3,18 +3,18 @@ export const Projects = [
         id: 1,
         title: 'Daily Blog',
         image: require('../../Assets/project/blog.png'), 
-        details: 'This project is a responsive website for daily blogs, where only the admin can add blogs, while the public can view and read them.',
+        details: 'A blogging platform built with Django where users can create, edit, and delete blog posts. It features user authentication, post management, and a responsive UI.',
         languages: ['HTML', 'CSS', 'Python','Django','SQLite'],
         code: '#',
-        liveLink: 'django-blog-wzf3.onrender.com/',
+        liveLink: 'https://django-blog-wzf3.onrender.com',
     },
     {
         id: 2,
-        title: 'Todo App',
+        title: 'React To-Do App',
         image: require('../../Assets/project/Todo.png'), // Ensure this path is correct
-        details: 'A simple Todo App for managing tasks, featuring add and delete functionalities with a clean user interface.',
+        details: 'A modern To-Do web app built with React. It allows users to add, delete, and manage daily tasks with a clean and responsive UI.',
         code: '#',
-        liveLink: 'https://tododaliy.vercel.app/', // Updated live link
+        liveLink: 'https://react-todo-app-rho-eight.vercel.app/', 
     },
     {
         id: 3,
