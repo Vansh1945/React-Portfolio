@@ -22,7 +22,7 @@ export const Projects = [
         title: 'Raj Electrical Services',
         image: require('../../Assets/project/raj.png'), // Add your image path here
         details: 'A service management web app for Raj Electricals to handle customer service requests, installations, and project bookings.',
-        languages: ['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'React.js', 'Tailwind CSS', 'Twilio'],
+        languages: ['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'React.js', 'Tailwind CSS', 'Cloudinary', 'Nodemailer', 'Razorpay'],
         code: '#',
         liveLink: 'https://rajelectricalservices.vercel.app/',
     },
@@ -31,7 +31,7 @@ export const Projects = [
         title: 'GuardianNet ',
         image: require('../../Assets/project/guardiannet.png'), // Add your image path here
         details: 'A MERN-based smart safety and alert system that helps users manage security and emergency notifications efficiently.',
-        languages: ['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'React.js', 'Tailwind CSS', 'Razorpay', ],
+        languages: ['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'React.js', 'Tailwind CSS', 'Twilio', 'Nodemailer'],
 
         code: '#',
         liveLink: 'https://guardiannet.vercel.app/',
