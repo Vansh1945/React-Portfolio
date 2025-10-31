@@ -18,10 +18,18 @@ export const Projects = [
     },
     {
         id: 3,
-        title: 'Restaurant-Demo',
-        image: require('../../Assets/project/3.png'), // Add your image path here
-        details: 'A blogging platform where users can create, edit, and delete blog posts.',
+        title: 'Raj Electrical Services',
+        image: require('../../Assets/project/raj.png'), // Add your image path here
+        details: 'A service management web app for Raj Electricals to handle customer service requests, installations, and project bookings.',
         code: '#',
-        liveLink: 'https://vk-restaurant.vercel.app/',
+        liveLink: 'https://rajelectricalservices.vercel.app/',
+    },
+    {
+        id: 4,
+        title: 'GuardianNet ',
+        image: require('../../Assets/project/guardiannet.png'), // Add your image path here
+        details: 'A MERN-based smart safety and alert system that helps users manage security and emergency notifications efficiently.',
+        code: '#',
+        liveLink: 'https://guardiannet.vercel.app/',
     },
 ];

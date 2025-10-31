@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        cursive: ['"Playfair Display"', 'serif'], // Set up the custom font family
+        cursive: ['"Playfair Display"', 'serif'], 
       },
     },
   },
